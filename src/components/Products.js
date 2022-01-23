@@ -3,8 +3,22 @@ import Grid from "@mui/material/Grid";
 import Product from "./product/Product";
 
 const products = [
-  { id: 1, name: "Shoes", description: "Running shoes", price: "$5" },
-  { id: 2, name: "Macbook", description: "Apple Macbook", price: "$10" },
+  {
+    id: 1,
+    name: "Nike Revolution 5",
+    description: "Men's Road Running Shoes",
+    price: "$60",
+    image:
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/qwqfyddzikcgc4ozwigp/revolution-5-mens-road-running-shoes-ZXqS6C.png",
+  },
+  {
+    id: 2,
+    name: "Macbook Air",
+    description: "Apple Macbook Air",
+    price: "$1200",
+    image:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-macbook-air-silver-202002?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1592437168000",
+  },
 ];
 
 const Products = () => {
